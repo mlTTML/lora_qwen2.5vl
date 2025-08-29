@@ -1,10 +1,17 @@
-error.txt:包含错误的条目
+error.txt:包含错误的条目 
+
 image_descriptions.json：包含图片路径和描述的json文件
+
 replace_descriptions_with_errors.py:生成包含一定比例的错误json文件（同时记录替换了哪些错误条目）
+
 generate_fixed_splits.py：按照一定的随机种子生成训练集和测试集
+
 find_common_samples.py：找到训练集中哪些是错误的条目
+
 evaluate_discard_vs_errors.py：计算精确率和召回率
 
 mystrategy.py：存放的是跳过策略
+
 run_sliding_window_proportional_training.py：自动执行命令（针对同一策略，不同比例）
+
 install_requirements.sh：需要安装的环境
